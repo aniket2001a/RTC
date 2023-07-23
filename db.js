@@ -2,7 +2,8 @@ function dbConnect() {
     // Db connection
 const mongoose = require('mongoose')
 // const url = 'mongodb://localhost/comments'
-const url = 'mongodb+srv://botar16649:nhM8J07y1K08U9oY@cluster0.mytorqz.mongodb.net/RTC-db?retryWrites=true&w=majority'
+// const url = 'mongodb+srv://botar16649:nhM8J07y1K08U9oY@cluster0.mytorqz.mongodb.net/RTC-db?retryWrites=true&w=majority'
+const url = 'mongodb+srv://aniketghosh2001:LvfL1mf6AxemVD8X@cluster0.39qtdvy.mongodb.net/RTC?retryWrites=true&w=majority'
 
 mongoose.connect(url, {
     userNewUrlParser: true,
